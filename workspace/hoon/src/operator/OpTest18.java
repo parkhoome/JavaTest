@@ -1,0 +1,29 @@
+package operator;
+
+public class OpTest18 {
+	public static void main(String[] args) {
+//인트로 소수점잏를 버리고 랜덤 난수 플러스 1    
+		// 강제 형변환 괄호 우선순위 확인
+		
+		System.out.println( ((int)(Math.random() * 18)  + 6)*100); //만들어낼 숫자의 가지수
+		//System.out.println( ((int)(Math.random() * 만들어낼 가지수)  + 시작지점 올려줌)*100);
+		
+	 
+		
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1 //난수 발생
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+//		System.out.println( (int)(Math.random() * 6)  + 1); // 0 <= x < 1
+ //		(Math.random() 하나의 숫자로 생각 램덤
+		
+			}
+}
+//}
+//1.  4,5,6,7,8,9,10,11,12,13,14,15 난수 하나 발생 하게 만드어라 
+//2. 600~2300s 난수 발생 하게 만들어라 
+//System.out.println( (int)(Math.random() * 18)  + 6);

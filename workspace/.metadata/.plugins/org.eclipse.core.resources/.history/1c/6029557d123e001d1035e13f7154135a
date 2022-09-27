@@ -1,0 +1,21 @@
+package str;
+
+public class MathodsofString {
+
+	public static void main(String[] args) {
+
+		//문자열 길이
+		String str1 = "hello java";
+String str2 = "안녕하세요 반갑습니다";
+System.out.println();
+
+//문자열 검색
+System.out.println(str1.charAt(1));
+System.out.println(str2.charAt(1));
+System.out.println();
+
+
+
+	}
+
+}

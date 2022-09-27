@@ -1,0 +1,10 @@
+package mymytest;
+
+public class java06 {
+	public static void main(String[] args) {
+
+//String[] classgroup = {"요셉" ,"현근" ,"정훈" };
+String[] member = { "박정훈", "황현근","한이람"};
+System.out.println(member[0]);
+	}
+}

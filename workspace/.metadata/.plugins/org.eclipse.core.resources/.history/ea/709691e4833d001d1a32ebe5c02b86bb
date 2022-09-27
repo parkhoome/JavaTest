@@ -1,0 +1,12 @@
+package mymytest;
+
+public class java06 {
+	public static void main(String[] args) {
+
+ 
+		String[] member = { "박정훈", "황현근", "한이람" };
+		for (int i = 0; i < member.length; i++) {
+			System.out.println(member[1] );
+		}
+	}
+}

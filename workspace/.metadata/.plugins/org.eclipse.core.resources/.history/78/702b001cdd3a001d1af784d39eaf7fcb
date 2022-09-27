@@ -1,0 +1,13 @@
+package operator;
+
+public class OpTest {
+
+	public static void main() {
+		
+		boolean t1,t2;
+		t1 = true;  t2 =true;
+		System.out.println(t1 && t1);
+		
+		
+	}
+}

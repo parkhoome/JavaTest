@@ -1,0 +1,26 @@
+package operator;
+
+public class OpTest {
+
+	public static void main(String[] args) {
+		
+		boolean t1,t2;
+		t1 = true;  t2 =true;
+		System.out.println(t1 && t1);
+		System.out.println(t1 && t1);
+		System.out.println(t1 && t1);
+		System.out.println("-------------");
+		System.out.println(t1 && t1);
+		
+		
+		byte a =10, b=7;
+		System.out.println(a ^ b);
+		
+		int c =100;
+		int d =200;
+		int temp = c;
+		
+		System.out.println("c =" + c);
+		System.out.println("d =" + d);
+	}
+}

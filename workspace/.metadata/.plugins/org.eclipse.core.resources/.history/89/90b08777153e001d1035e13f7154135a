@@ -1,0 +1,22 @@
+package str;
+
+public class Methodofstring_2 {
+
+	public static void main(String[] args) {
+		//203 페이지  new라는 새로운 객체를 설정한것이여서 다른 값를 가리킨다.
+		String str2 =new String("Java");
+		String str3 =new String("Java");
+		String str4 =new String("java"); // 대문자
+		
+		System.out.println(str2==str3);
+		System.out.println(str3==str4);
+		System.out.println(str4==str2);
+
+		
+		//@equals();  equalsIgnoreCaes();  차이 
+		System.out.println(str2.equals(str3));
+		System.out.println(str3.equals(str4));
+		System.out.println(str3.equalsIgnoreCase(str3));
+	}
+
+}

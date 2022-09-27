@@ -1,0 +1,14 @@
+package operator;
+
+public class OpTest1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("ddev");
+		System.out.println("rvwe");
+		System.out.print("vwev");
+		System.out.print("vwev");
+	}
+	}
+	
+

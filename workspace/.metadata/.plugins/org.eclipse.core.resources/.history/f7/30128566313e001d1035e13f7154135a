@@ -1,0 +1,17 @@
+package oep1;
+
+public class Point2D {
+
+	
+		/*클래스와 오브젝트
+		 * class
+		 * object 
+		 */
+		private int x;  
+		private int y;  
+	
+		
+
+	
+
+}

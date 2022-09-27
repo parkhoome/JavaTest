@@ -1,0 +1,12 @@
+package oep1;
+
+public class PointTest {
+	public static void main(String[] args) {
+
+		Point2D pt = new Point2D(); // pt는 인스턴스 실체
+		pt.x = 100;
+		pt.y = 200;
+		System.out.println(" x =" + pt.x);
+		System.out.println(" y =" + pt.y);
+	}
+}

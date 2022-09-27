@@ -1,0 +1,20 @@
+
+public class ForTest {
+public static void main(String[] args) {
+	
+	
+	for (int i=10; i<=40; i =i*2) {
+		System.out.println(i + ": hellow");
+	}
+
+	System.out.println("end");
+	
+	/*
+	//---------무한반복 주의
+	for( ; ;){
+		System.out.println("test");
+	}
+	*/
+	
+}
+}

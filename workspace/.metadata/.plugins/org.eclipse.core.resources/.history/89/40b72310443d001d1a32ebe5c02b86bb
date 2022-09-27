@@ -1,0 +1,22 @@
+package operator;
+import java.util.Calendar;
+
+public class CalenderTest {
+public static void main(String[] args) {
+	Calendar c =Calendar.getInstance();
+	
+	System.out.println(c.get(Canlender.YEAR));
+	System.out.println(c.get(Canlender.MOMTH + 1));
+	System.out.println(c.get(Canlender.DATE + 1));
+	System.out.println(c.get(Canlender.DATE_OF_WEEK + 1));
+	int year  = 2022;
+	int month = 9;
+	int date = 27;
+	c.set(year, month-1, date);
+	System.out.println(c.get(Canlender.DATE);
+	System.out.println(c.get(Canlender.DATE_OF_WEEK));
+	System.out.println(c.getActual(Canlender.DATE + 1))
+	
+	
+	}
+}

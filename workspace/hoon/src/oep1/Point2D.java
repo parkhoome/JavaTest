@@ -1,0 +1,38 @@
+package oep1;
+
+public class Point2D {
+
+	
+		/*클래스와 오브젝트
+		 * class
+		 * object 
+		 */
+		private int x;  
+		private int y;
+		//꺼낸
+		public int getX() {
+			return x;
+		}
+		//저장 
+		public void setX(int x) {
+			this.x = x;
+		}
+		//꺼낸 
+		public int getY() {
+			return y;
+		}
+		//저장
+		public void setY(int y) {
+			this.y = y;
+		}  
+	public void print() {
+		System.out.println(" x =" + this.getX());
+		System.out.println(" y =" + this.getY());
+		System.out.println(" y =" + this.getZ());
+	}
+	}
+		
+
+	
+
+}

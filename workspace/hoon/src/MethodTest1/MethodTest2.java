@@ -1,0 +1,17 @@
+package MethodTest1;
+
+public class MethodTest2 {
+ public static void main(String[] args) {
+print(1);
+print(2,3);
+print(4,5,6); //변수를 넘긴다 
+}
+//1개짜리 변수가 넘어오면 한개 만든다 만약 3개 짜리가 넘어오면 
+private static void print(int...i) {
+	for( int j =0; j<i.length; j++) {
+	System.out.print(i[j + "\t"]);
+	}
+	System.out.println();
+
+}
+}

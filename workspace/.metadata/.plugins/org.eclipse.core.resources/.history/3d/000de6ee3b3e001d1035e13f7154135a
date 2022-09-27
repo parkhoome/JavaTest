@@ -1,0 +1,14 @@
+package MethodTest1;
+
+public class MethodTest11 {
+public static void mian() {
+	// TODO Auto-generated method stub
+hello();
+hello("일우");
+System.out.println("종료");
+}
+//보이드는 돌아갈 때 아무런 값을 가지고 가지 않겠다는 의미
+	private static void hello();
+	System.out.println("hello~");
+
+}

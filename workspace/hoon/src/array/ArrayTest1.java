@@ -1,0 +1,46 @@
+package array;
+
+public class ArrayTest1 {
+	public static void main(String[] args) {
+		/*
+		 * int[] array1= new int[3]; array1[0] =3; array1[1] =4; array1[2] =5;
+		 * System.out.println(array1[0]+ " " + array1[1]+ " " + array1[2]);
+		 * 
+		 * //159pg int[] array2; array2 new int[3];3
+		 
+
+		int value3 = 0;
+		System.out.println(value3);
+		System.out.println("  ");
+		int[] value4 = null;
+		System.out.println(value4);
+		System.out.println();
+		// g힙메모리 강체 초기화
+		boolean[] array1 = new boolean[3];
+		for (int i = 0; i < 3; i++) {
+			System.out.println(array1[i] + "  ");
+		}
+		System.out.println();
+		// ----
+		int[] array2 = new int[3];
+		for (int i = 0; i < 3; i++) {
+			System.out.println(array2[i] + "  ");
+		}
+		
+		//---
+		
+		System.out.println(Arrays.toString(array1));
+		System.out.println(Arrays.toString(array2));
+
+*/
+		int value1 =3;
+		int value2 =value1;
+		value2 =7;
+		System.out.println(value1);
+		System.out.println(value2);
+		System.out.println();
+		
+		
+		
+	}
+}

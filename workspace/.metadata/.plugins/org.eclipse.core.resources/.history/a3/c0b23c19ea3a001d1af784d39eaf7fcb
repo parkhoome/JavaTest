@@ -1,0 +1,16 @@
+package operator;
+
+public class OpTest14 {
+	public static void main(String[] args) {
+
+		Scanner sd = new Scanner(System.in);
+		System.out.println("n : " );  int n=sc.next();
+
+		
+		
+	//int n=1;// n은 주민 7번째 숫자라고 가정 
+	//System.out.println(n == 1 ? "남 : 여 ");
+		System.out.println( n == 1 ? "남" :
+			 				n == 2 ? "여" : "에러");
+	}
+}

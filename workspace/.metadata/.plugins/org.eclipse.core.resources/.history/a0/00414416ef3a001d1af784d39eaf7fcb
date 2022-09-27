@@ -1,0 +1,10 @@
+package operator;
+
+public class OpTest17 {
+	public static void main(String[] args) {
+
+	double d = 10;  //10.0 으로 저장됨
+	System.out.println(d);
+	
+			}
+}

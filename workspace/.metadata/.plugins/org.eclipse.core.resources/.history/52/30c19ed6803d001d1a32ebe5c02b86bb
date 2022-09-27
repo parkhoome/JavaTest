@@ -1,0 +1,8 @@
+package mymytest;
+
+public class java06 {
+	public static void main(String[] args) {
+String[] classgroup = {"w" ,"g" ,"ef" };
+
+	}
+}

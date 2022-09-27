@@ -1,0 +1,62 @@
+package control;
+
+import java.util.Scanner;
+
+public class ScissorsGame {
+	 //제어문 문제- 가위 바위 보 Math.random()을 이용해서 1~3사이의 난수 발생 
+	 //1이면 가위 2면 바위 3이면 보
+	//you : 가위  
+	//com : 가위
+	//당시신의 승리 입니다.\\
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.printf("가위는 1, 바위는 2 보는 3을 입력하세요>");
+		int you = sc.nextInt();
+		int  com =(int)(Math.random() * 3 + 1 );
+		System.out.println(com);	
+		
+		
+		
+		
+			if (com ==1) {
+				if(you == 1) {
+				System.out.println("비김");}
+				else if(you == 2) {
+				System.out.println("이김");}
+				else {
+					System.out.println("짐");}
+				}
+			
+				
+			
+			
+				
+				
+			if (com ==2) {
+				if(you == 1) {
+				System.out.println("짐");}
+				else if(you == 2) {
+				System.out.println("비김");}
+				else  {
+						System.out.println("이김");}
+					
+				}
+			
+			
+			
+					
+					
+				if (com ==3) {
+					if(you == 1) {
+					System.out.println("이김");}
+					else if(you == 2) {
+					System.out.println("비김");}
+					else {
+							System.out.println("짐");}
+						
+					}
+		
+						
+		
+	}
+}

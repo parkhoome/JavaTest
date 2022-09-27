@@ -1,0 +1,12 @@
+package mymytest;
+
+public class java06 {
+	public static void main(String[] args) {
+
+//String[] classgroup = {"요셉" ,"현근" ,"정훈" };
+String[] class =new String[4];
+		System.out.println(classg[2]);
+		System.out.println(classg[0]);
+
+	}
+}

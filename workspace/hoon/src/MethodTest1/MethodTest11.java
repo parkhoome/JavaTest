@@ -1,0 +1,35 @@
+package MethodTest1;
+//4가지 형태의 메소드
+public class MethodTest11 {
+	public static void mian() {
+		// TODO Auto-generated method stub
+		hello();
+		hello("일우"); //메소드 오버로딩 
+		System.out.println(add(2, 5));
+		System.out.println(dice1());
+		dice2();
+		System.out.println("종료");
+	}
+
+//-------------
+	public static void dice2() {
+		System.out.println((int) (Math.random() * 6) + 1);
+	}
+
+//-----------재사용 용이 사용성 높음 
+	private static int dice1() {
+
+		return (int) (Math.random() * 6 + 1);
+	}
+//--------------
+
+	private static int add(int i, int j) {
+		return i + j;
+	}
+
+//보이드는 돌아갈 때 아무런 값을 가지고 가지 않겠다는 의미
+	private static void hello() {
+		System.out.println("hello~");
+	}
+}
+//ㅇ

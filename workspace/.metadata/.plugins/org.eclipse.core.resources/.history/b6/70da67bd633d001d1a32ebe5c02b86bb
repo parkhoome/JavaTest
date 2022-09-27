@@ -1,0 +1,9 @@
+package loop;
+
+public class Looptest5 {
+	public static void main(String[] args) {
+		for (int j =2; j<= 9; i++) {
+			System.out.println(2 + "*" + j + "=" + 2 * j);
+		}
+	}
+}

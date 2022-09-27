@@ -1,0 +1,16 @@
+package oep1;
+
+public class Point2D {
+
+	public static void main(String[] args) {
+		/*클래스와 오브젝트
+		 * class
+		 * object 
+		 */
+		int x;  
+		int y;  
+		
+
+	}
+
+}
